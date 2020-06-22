@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%; /* 横幅いっぱい */
+    height: 70px; /* 高さ120px */
+    background-color: #EC715F; /* 背景赤色 */
+    text-align: center;
+}
+.nav-list {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.nav-list-item {
+    list-style: none;   
+    display: inline-block;
+    margin: 0 20px;
+}
